@@ -1,8 +1,8 @@
 <template>
-    
+
         <a href="mailto:meetluckyadogun@gmail.com" class="text-center p-5 bg-white my-6 md:my-3 rounded-3xl text-black flex flex-col justify-center">
-            <div class="flex justify-end">
-                <p class="bg-theme-dark mb-5 py-1 px-2 text-xs w-20 md:w-32 text-theme-tertiary rounded-3xl md:rounded-2xl font-bold">{{cardData.price}}</p>
+            <div class="flex justify-end gap-2">
+                <p class="bg-theme-dark mb-5 py-1 px-2 text-xs w-20 md:w-32 text-theme-tertiary rounded-3xl md:rounded-2xl font-bold" v-for="(tech, idx) in cardData.tecnologies" :key="idx">{{tech}}</p>
             </div>
             <div class="flex flex-col items-center p-5">
                 <img :src="cardData.photo" class="w-2/5 md:w-2/5 mb-3" alt="">

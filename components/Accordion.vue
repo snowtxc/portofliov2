@@ -3,100 +3,72 @@
         <!--  Panel 1  -->
         <div class="w-full">
             <input type="checkbox" name="panel" id="panel-1" class="hidden">
-            <label for="panel-1" class="relative block bg-black text-white p-4 shadow border-b border-grey">For Founders</label>
+            <label for="panel-1" class="relative block bg-black text-white p-4 shadow border-b border-grey">¿Cual es tu formación?</label>
             <div class="accordion__content overflow-hidden bg-grey-lighter">
-                <h2 class="accordion__header font-medium pt-4 pl-4">Who am I and what can I do for you?</h2>
+                <h2 class="accordion__header font-medium pt-4 pl-4">Mi formación</h2>
                 <p class="accordion__body p-4">
-                    I am a SaaS product engineer passionate about building MVPs for startups. I have built many MVPs for many clients within many industries, 
-                    even for the Federal Government of Nigeria for a called <a target="_blank" class="font-medium underline text-theme-tertiary" href="https://www.thisdaylive.com/index.php/2021/04/12/fg-to-launch-web-based-solution-for-project-monitoring/">Eyemark&trade;</a> 
-                    which is currently being used by the <a target="_blank" class="font-medium underline text-theme-tertiary" href="https://nationalplanning.gov.ng/">Federal Ministry of Budget and National Planning.</a>                    
+                  Mis inicios fueron cuando tenía 16 años y realicé la secundaria en un curso orientado a informática en UTU (Uruguay), esto me garantizó una sólida base de conocimientos sobre programación, bases de datos, sistemas operativos y más.
                 </p>
                 <p class="accordion__body p-4">
-                    I also work with solo, non-tech founders without a CTO as a side-kick in helping them make better tech-inclined business decisions. 
-                    If that sounds like something you are interested in, feel free to reach out via <a class="font-medium underline text-theme-tertiary" href="mailto:meetluckyadogun@gmail.com">email</a>
-                </p>                    
+                  Luego me gradué de una carrera de 3 años llamada "Tecnólogo en Informática" en UTEC (Uruguay), donde principalmente trabajé en múltiples talleres de distintas tecnologías como PHP, .NET. A su vez, desarrollé un pensamiento analítico, aprendí sobre ingeniería de software, redes, sistemas operativos y mucho más. Considero que fue una carrera orientada en su mayoría a la práctica constante y al enfrentamiento de problemas del mundo real.
+
+                </p>
+
             </div>
         </div>
         <!-- Panel 2 -->
         <div class="w-full">
             <input type="checkbox" name="panel" id="panel-2" class="hidden">
-            <label for="panel-2" class="relative block bg-black text-white p-4 shadow border-b border-grey">For Recruiters</label>
+            <label for="panel-2" class="relative block bg-black text-white p-4 shadow border-b border-grey">¿Cuál es tu experiencia profesional?</label>
             <div class="accordion__content overflow-hidden bg-grey-lighter">
 
-                <h2 class="accordion__header font-medium pt-4 pl-4">Who am I?</h2>
+                <h2 class="accordion__header font-medium pt-4 pl-4">Experiencia Profesional</h2>
                 <p class="accordion__body p-4">
-                    I fancy myself a product engineer. I work essentially with Python and JavaScript and love being around the 
-                    startup ecosystem due to its fast-moving nature. I am highly stimulated by rigorous and innovative thinking
-                    and find it to be the best fit for my personality. I love structure and fancy clean, and well-structured code.
+                    Trabajo desde agosto 2022 en el rubro como Sofware Developer. Me he desempeñado en la implementación de nuevas funcionalidades en distintos proyectos principalmene utilizando  el stack Vue Js y PHP, así como diseño de base de datos relacionales y no relacionales como Firestore, correción de bugs detectados, migración de sistemas legados, ánalisis y relevamiento de requerimientos
+                </p>
+                <p class="accordion__body p-4">
+                    He trabajado en proyectos de uso comercial para público en general como un software de gestión de equipos técnicos, software a medida para gestión de una empresa de seguridad chilena, así como
+                    software interno de la empresa para el manejo de tickets y reclamos de Normas ISO.
+                </p>
 
-                </p>
-                <h2 class="accordion__header font-medium pt-4 pl-4">What can I do for you?</h2>
-                <p class="accordion__body p-4">
-                    I have vast experience building software services using Python and Django due to their fast prototyping nature.
-                    I have worked in both enterprise and startup environments and understand what it takes to build a well-structured
-                    and scalable system that meets the needs of its users and developers alike.
-
-                    <nuxt-link class="font-medium underline text-theme-tertiary" to="toolbox">You can read more about my stack here</nuxt-link>
-                </p>
-                <h2 class="accordion__header font-medium pt-4 pl-4">What hiring styles/roles best suit me?</h2>
-                <p class="accordion__body p-4">
-                    Although I have some design skills (my journey started with computer graphics in high-school), I am best suited for a Backend role.
-                    I have held full-time positions, worked as a freelancer and worked as a contractor. I have discovered that whatever work style 
-                    I am involved with, one thing is constant: is code will be written for the purpose of the business. That is the most essential.            
-                </p>
-                <h2 class="accordion__header font-medium pt-4 pl-4">How can I perform best while running a coaching service?</h2>
-                <p class="accordion__body p-4">
-                    Like most developers, a chunk of my free time is spent working on side-projects. <a class="font-medium underline text-theme-tertiary" href="https://github.com">GitHub</a>
-                    is filled with a ton of those projects which are more than often abandoned. My coaching is my side project but channeled in a more specific way such that its impact is beneficial
-                    to those it serves. This helps me keep my creative juice flowing and avoid burn-out.
-                </p>
-                <p class="accordion__body p-4">
-                    If you have more questions, feel free to reach out via <a class="font-medium underline text-theme-tertiary" href="mailto:meetluckyadogun@gmail.com">email</a>
-                </p>
             </div>
         </div>
         <!--  Panel 3  -->
         <div class="w-full">
             <input type="checkbox" name="panel" id="panel-3" class="hidden">
-            <label for="panel-3" class="relative block bg-black text-white p-4 shadow border-b border-grey">For Developers</label>
+            <label for="panel-3" class="relative block bg-black text-white p-4 shadow border-b border-grey">¿Cuáles son tus habilidades clave?</label>
             <div class="accordion__content overflow-hidden bg-grey-lighter">
-                <h2 class="accordion__header font-medium pt-4 pl-4">Who am I and What can I do for you?</h2>
+                <h2 class="accordion__header font-medium pt-4 pl-4">Habilidades Claves</h2>
                 <p class="accordion__body p-4">
-                    I am a fellow dev like you. This means two things, I am eager to learn from you and also share some of my ideas about Python, SaaS and building MVPs with you - if that's your thing.
-                    
-                </p>
-                <p class="accordion__body p-4">
-                    You may also find that my stack includes Python. If you are coming from a different eco-system, you will find my writings here. I try to make them easily digestable. 
-                    I am constantly learning and trying new things out so keep an eye on my <a target="_blank" class="font-medium underline text-theme-tertiary" href="https://blog.luckyadogun.com">blog.</a>
-                </p>
-                <p class="accordion__body p-4">
-                    If you find any of my <a target="_blank" class="font-medium underline text-theme-tertiary" href="https://github.com/luckyadogun">open source projects</a> interesting and want to collaborate, feel free to reach me via <a class="font-medium underline text-theme-tertiary" href="mailto:meetluckyadogun@gmail.com">email</a> and we can hopefully work together.
+                    Mis habilidades técnicas principalmente se centran en desarrollo y mantenimiento de Software con PHP y Vue JS,así como conocimientos de base de datos SQL y no SQL, control de versiones con GIT.
+                    A nivel académico he trabajado con otras tecnólogias como React, .NET, Java, C++ y más.
                 </p>
             </div>
         </div>
         <!--  Panel 4  -->
         <div class="w-full">
             <input type="checkbox" name="panel" id="panel-4" class="hidden">
-            <label for="panel-4" class="relative block bg-black text-white p-4 shadow border-b border-grey">For Random Strangers</label>
+            <label for="panel-4" class="relative block bg-black text-white p-4 shadow border-b border-grey">¿Cómo pueden contactarte?</label>
             <div class="accordion__content overflow-hidden bg-grey-lighter">
-                <h2 class="accordion__header font-medium pt-4 pl-4">Hey buddy, what can I do for you?</h2>
+                <h2 class="accordion__header font-medium pt-4 pl-4">Contacto</h2>
                 <p class="accordion__body p-4">
-                    Whatever your feild may be, I would like you to learn about SaaS (Software As A Service) apps and idea prototyping with MVPs (Minimum Viable Products). 
-                    It doesn't matter if you are into marketing, rocket-science or real-estate, a big part of your business can be automated and there are 
-                    people who would be happy to use your exisiting solution instead of building theirs. That's what SaaS is about.                    
+                    Mi correo es rodrigo.castro.v23@gmail.com y mi número de celular 092365856. Estaré encantado de charlar por cualquier interés 😁
                 </p>
-                <p class="accordion__body p-4">
-                    If you find that idea stricking, shoot me an <a class="font-medium underline text-theme-tertiary" href="mailto:meetluckyadogun@gmail.com">email</a> 
-                    and I would help glad to help you learn more about how it can be of benefit for your business.
-                </p>
+
             </div>
         </div>
-        <p class="my-3">
-            I believe you must have found this part of this site interesting. 
-            If I didn't cover any areas you expected, please feel free to ask me 
-            anything you want via email and I will be happy to answer. 
-            Stay sharp
-        </p>   
+
+        <div class="w-full">
+            <input type="checkbox" name="panel" id="panel-5" class="hidden">
+            <label for="panel-5" class="relative block bg-black text-white p-4 shadow border-b border-grey">¿Qué tipo de proyectos te interesan?</label>
+            <div class="accordion__content overflow-hidden bg-grey-lighter">
+                <p class="accordion__body p-4">
+                  Puedo adaptarme a trabajar en cualquier proyecto, mi experiencia viene más por el desarrollo web pero siempre me gusta innovar y enfrentarme a nuevos desafíos que supongan un reto para mi 💪, y a su vez ayude a alcanzar los intereses de una empresa
+                </p>
+
+            </div>
+        </div>
+
     </div>
 </template>
 
